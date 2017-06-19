@@ -30,4 +30,12 @@ inputs:
         type: string
         inputBinding:
             position: 6 
-outputs: []
+outputs:
+    output_file:
+        type: File
+        outputBinding:
+            glob: "*.txt"
+    output_genotypes:
+        type: FIle
+        outputBinding:
+            glob: "*.bed"
