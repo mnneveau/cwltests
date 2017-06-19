@@ -7,8 +7,10 @@ inputs:
         type: File
         inputBinding:
             position: 1
+        secondaryFiles: [.bai]
     bam_2:
         type: File
         inputBinding:
             position: 2
+        secondaryFiles: [.bai]
 outputs: []
