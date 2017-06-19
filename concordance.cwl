@@ -1,7 +1,7 @@
 cwlVersion: v1.0
 class: CommandLineTool
 label: "Concordance tool"
-baseCommand: echo
+baseCommand: ["python", "/opt/concordance/newConcordance.py"]
 inputs:
     bam_1:
         type: File
