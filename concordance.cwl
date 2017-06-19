@@ -36,6 +36,6 @@ outputs:
         outputBinding:
             glob: "*.txt"
     output_genotypes:
-        type: FIle
+        type: File
         outputBinding:
             glob: "*.bed"
