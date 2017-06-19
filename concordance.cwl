@@ -2,6 +2,9 @@ cwlVersion: v1.0
 class: CommandLineTool
 label: "Concordance tool"
 baseCommand: ["python", "/opt/concordance/newConcordance.py"]
+hints:
+    class: DockerRequirement
+    dockerPull: "mneveau/docker-cle:concordance_addition"
 inputs:
     bam_1:
         type: File
