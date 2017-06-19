@@ -13,4 +13,21 @@ inputs:
         inputBinding:
             position: 2
         secondaryFiles: [.bai]
+    reference:
+        type: File
+        inputBinding:
+            position: 3
+        secondaryFiles: [.fai, "^.dict"]
+    snp:
+        type: File
+        inputBinding:
+            position: 4
+    output_file_name:
+        type: string
+        inputBinding:
+            position: 5
+    output_genotypes_file_name:
+        type: string
+        inputBinding:
+            position: 6 
 outputs: []
